@@ -58,7 +58,7 @@ func GetPrice() {
 				status = true
 			} else if status == true {
 				fmt.Println("YOU'RE LONG")
-				calls.BuyAtMarketPrice("BTCUSDT", 10)
+
 			}
 
 		}
